@@ -29,4 +29,3 @@ class Url
   def <=>(other)
     [scheme, host, port, query_params] <=> [other.scheme, other.host, other.port, other.query_params]
   end
-end
